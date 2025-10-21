@@ -7,6 +7,11 @@ Este é um projeto de um aplicativo de quiz desenvolvido para testar conheciment
 - Pontuação baseada nas respostas corretas no final
 - Imagens nas perguntas para maior interatividade
 
+## Criação do Projeto
+
+```bash
+composer create-project laravel/laravel Quizz
+```
 
 ### Criação do Modelo e Migração
 
