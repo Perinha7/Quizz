@@ -22,3 +22,27 @@ php artisan make:model Pergunta -m
 ```
 
 Isso vai criar o arquivo do modelo `Pergunta.php` em `app/Models` e o arquivo de migração em `database/migrations`.
+
+
+## Criação de Seeder para perguntas
+Para popular o banco de dados com perguntas iniciais, você pode criar um seeder usando o comando:
+
+```bash
+php artisan make:seeder PerguntasSeeder
+```
+
+## Rodar as migrações e seeders
+Após criar as migrações e seeders, você pode rodá-los com o comando:
+
+```bash
+php artisan migrate
+php artisan db:seed --class=PerguntasSeeder
+```
+
+## Criação do Controlador
+
+Para criar um controlador para gerenciar as perguntas, você pode usar o comando:
+
+```bash
+php artisan make:controller PerguntaController
+```
