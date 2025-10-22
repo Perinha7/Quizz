@@ -9,6 +9,11 @@ class PerguntaController extends Controller
     // Mostra a página inicial de boas vindas ao quizz
     public function inicio()
     {
-        return view('perguntas.inicio');
+        $total_perguntas = Pergunta::count();
+
+        return view(
+            'perguntas.inicio',
+            compact('total_perguntas')
+        );
     }
 }
