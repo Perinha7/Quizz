@@ -17,4 +17,18 @@ class PerguntaController extends Controller
             compact('total_perguntas')
         );
     }
+
+    // Mostra a página para responder as perguntas do quizz
+    public function responder()
+    {
+        // Pega todas as perguntas do banco de dados
+        $perguntas = Pergunta::all();
+
+        // Retorna a view com as perguntas
+        return view(
+            'perguntas.responder',
+            compact('perguntas')
+        );
+    }
 }
+
