@@ -15,34 +15,34 @@ class PerguntasSeeder extends Seeder
     {
         // Criar perguntas de exemplo
         Pergunta::create([
-            'texto' => 'Qual é a capital da França?',
-            'opcao_a' => 'Berlim',
-            'opcao_b' => 'Madrid',
-            'opcao_c' => 'Paris',
-            'opcao_d' => 'Lisboa',
-            'resposta_correta' => 'C',
+            'texto' => ' Qual é o nome verdadeiro de Ace?',
+            'opcao_a' => 'Portgas D. Ace',
+            'opcao_b' => 'Gol D. Ace',
+            'opcao_c' => 'Monkey D. Ace',
+            'opcao_d' => 'Roger D. Ace',
+            'resposta_correta' => 'a',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é o maior planeta do nosso sistema solar?',
-            'opcao_a' => 'Terra',
-            'opcao_b' => 'Júpiter',
-            'opcao_c' => 'Saturno',
-            'opcao_d' => 'Marte',
-            'resposta_correta' => 'B',
+            'texto' => 'Qual é o nome da ilha natal de Nico Robin?',
+            'opcao_a' => 'Ohara',
+            'opcao_b' => 'Baltigo',
+            'opcao_c' => 'Elbaf',
+            'opcao_d' => 'Wano',
+            'resposta_correta' => 'a',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Quem escreveu "Dom Quixote"?',
-            'opcao_a' => 'Miguel de Cervantes',
-            'opcao_b' => 'Gabriel García Márquez',
-            'opcao_c' => 'Pablo Neruda',
-            'opcao_d' => 'Jorge Luis Borges',
-            'resposta_correta' => 'A',
+            'texto' => 'Qual destes personagens NÃO é um Shichibukai (Ouka Shichibukai)?',
+            'opcao_a' => 'Crocodile',
+            'opcao_b' => 'Jinbe',
+            'opcao_c' => 'Marco',
+            'opcao_d' => 'Boa Hancook',
+            'resposta_correta' => 'c',
             'imagem' => null,
             'pontos' => 1,
         ]);
